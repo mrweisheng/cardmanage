@@ -630,3 +630,6 @@
 {"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:27"}
 {"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:27"}
 {"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-22 14:43:00"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-22 19:31:30"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-22 19:31:31"}
+{"level":"info","message":"服务器已启动，监听端口: 9527","service":"cardpool-proxy","timestamp":"2025-05-22 19:31:31"}

@@ -86,26 +86,24 @@ const clientsSpilt = async (req, res) => {
         data: { phoneNumber, device_number: simCard.device_number }
       });
     }
-    // 查找该设备是否已绑定其他卡，解绑
-    await simCardModel.releaseCardByDevice(deviceId);
-    // 绑定新卡到设备
-    await simCardModel.bindCardToDevice(simCard.imsi, deviceId, userId);
-    // 调用第三方API
+    // 先调用第三方API
     logger.info('开始调用第三方API', { userId, imsi: simCard.imsi });
     const apiResponse = await callApi('POST', '/outbreak/clientsSpilt', {
       userId,
       imsi: simCard.imsi
     }, {}, req.ip);
-    
-    // 如果API返回成功，异步更新数据库状态和记录日志
+
+    // 只有API返回成功才操作数据库
     if (apiResponse && apiResponse.code === '3810000') {
+      await simCardModel.releaseCardByDevice(deviceId);
+      await simCardModel.bindCardToDevice(simCard.imsi, deviceId, userId);
       process.nextTick(() => {
         simCardModel.updateSimCardStatus(simCard.imsi, userId, true)
           .then(() => logOperation('切卡', userId, simCard.imsi, req.body, apiResponse, 'success'))
           .catch(err => logger.error('切卡异步处理失败', { error: err.message }));
       });
     } else {
-      // 异步记录失败操作
+      // 失败只记录日志，不操作数据库
       process.nextTick(() => {
         logOperation('切卡', userId, simCard.imsi, req.body, apiResponse, 'failed')
           .catch(err => logger.error('记录切卡失败日志失败', { error: err.message }));
