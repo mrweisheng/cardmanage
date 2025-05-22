@@ -1,0 +1,406 @@
+# 卡池接口文档
+
+## 基本信息
+- 标题：卡池
+- 版本：1.0.0
+- 标签：sim_customer
+
+## 认证方式
+所有接口都需要在请求头中包含key参数进行认证。
+实际使用的key值为："8d6d6862e654b4444126968b5516ae69"
+
+## 接口列表
+
+### 1. 切卡
+- 路径：/outbreak/clientsSpilt
+- 方法：POST
+- 描述：切换SIM卡（设备切换到指定SIM卡）
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(application/json)：
+  ```json
+  {
+    "userId": "test99001",
+    "phoneNumber": "13800138000",
+    "deviceId": "A001"
+  }
+  ```
+- 业务规则：
+  1. 切卡时，设备只能绑定一张卡，卡只能被一个设备绑定。
+  2. 如果设备已绑定其他卡，先解绑原卡再绑定新卡。
+  3. 如果目标卡已被其他设备绑定，则切卡失败，返回错误。
+- 响应(200)：
+  - 内容类型：application/json
+  - 结构：Object
+
+### 2. 强制还卡
+- 路径：/outbreak/userRevuim
+- 方法：POST
+- 描述：强制归还SIM卡
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(application/json)：
+  ```json
+  {
+    "userId": "",
+    "needAdjust": "yes"
+  }
+  ```
+- 响应(200)：
+  - 内容类型：application/json
+  - 结构：Object
+
+### 3. 设备对应的卡
+- 路径：/outbreak/simpoolsDeatil
+- 方法：POST
+- 描述：查询设备所对应的SIM卡信息
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(multipart/form-data)：
+  - macAddress：设备MAC地址，示例值："00:01:c2:ff:ec:68"
+- 响应(200)：
+  - 内容类型：application/json
+  - 结构：Object
+
+### 4. SIM卡列表
+- 路径：/outbreak/simCardsList
+- 方法：POST
+- 描述：获取SIM卡列表
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(application/json)：
+  ```json
+  {
+    "imsi": "",
+    "userId": "",
+    "simPoolMacAddr": "",
+    "page": 1,
+    "size": 20
+  }
+  ```
+- 响应(200)：
+  - 内容类型：application/json
+  - 示例：
+  ```json
+  {
+    "code": "3810000",
+    "msg": "success",
+    "data": {
+      "content": [
+        {
+          "id": "67d4004dca1b3d7fe02774d6",
+          "iccid": "8991932410178149445f",
+          "availableMcc": null,
+          "balance": null,
+          "canCalAccount": null,
+          "canMultiMcc": null,
+          "deductScore": null,
+          "imgMd5": "fe54df5a55a2ab4145975cd0c2b4d844",
+          "imsi": "404931017814944",
+          "isActivate": true,
+          "isBroken": false,
+          "isDisabled": false,
+          "isInSimpool": true,
+          "is_used": false,
+          "locationInSimPool": 154,
+          "mcc": "404",
+          "mnc": "93",
+          "operatorId": null,
+          "orgCode": null,
+          "packages": null,
+          "phoneNumber": null,
+          "simPoolMacAddr": "00:18:12:e5:e4:bf",
+          "flag": null,
+          "type": 0,
+          "remark": null,
+          "updateAt": 1744449410386,
+          "userId": "202503291813168945",
+          "name": "customer_001",
+          "bindNumber": null,
+          "data": null
+        },
+        {
+          "id": "67c124f31de26f1378132267",
+          "iccid": "89915241900096671766",
+          "availableMcc": null,
+          "balance": null,
+          "canCalAccount": null,
+          "canMultiMcc": null,
+          "deductScore": null,
+          "imgMd5": "235f6fa7a316b12964b9a8f8633d9aad",
+          "imsi": "405524199667176",
+          "isActivate": true,
+          "isBroken": false,
+          "isDisabled": false,
+          "isInSimpool": true,
+          "is_used": true,
+          "locationInSimPool": 153,
+          "mcc": "405",
+          "mnc": "52",
+          "operatorId": null,
+          "orgCode": null,
+          "packages": null,
+          "phoneNumber": null,
+          "simPoolMacAddr": "00:18:12:e5:e4:bf",
+          "flag": null,
+          "type": 0,
+          "remark": null,
+          "updateAt": 1744449410383,
+          "userId": "202504122125062995",
+          "name": "customer_001",
+          "bindNumber": null,
+          "data": null
+        }
+      ],
+      "pageable": {
+        "sort": {
+          "sorted": false,
+          "unsorted": true,
+          "empty": true
+        },
+        "pageNumber": 0,
+        "pageSize": 20,
+        "offset": 0,
+        "unpaged": false,
+        "paged": true
+      },
+      "totalPages": 1,
+      "totalElements": 2,
+      "last": true,
+      "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+      },
+      "numberOfElements": 2,
+      "first": true,
+      "size": 20,
+      "number": 0,
+      "empty": false
+    }
+  }
+  ```
+
+### 5. 接入设备
+- 路径：/outbreak/clients
+- 方法：POST
+- 描述：获取接入设备信息
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(application/json)：
+  ```json
+  {
+    "userId": "",
+    "page": 1,
+    "sezi": 20
+  }
+  ```
+- 响应(200)：
+  - 内容类型：application/json
+  - 结构：Object
+
+### 6. 设备详情
+- 路径：/outbreak/clientsInfo
+- 方法：POST
+- 描述：获取设备详细信息
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(multipart/form-data)：
+  - userId：用户ID
+- 响应(200)：
+  - 内容类型：application/json
+  - 示例：
+  ```json
+  {
+    "code": "3810000",
+    "msg": "success",
+    "data": {
+      "clients": {
+        "id": "67dfd3a71039232e654bc69c",
+        "userId": "202503231725597306",
+        "password": "",
+        "idCard": null,
+        "status": 0,
+        "psdMD5": "",
+        "balance": null,
+        "userName": null,
+        "preAuthorThreshold": 0,
+        "preAuthorCount": 0,
+        "preAuthorUnit": null,
+        "registered": false,
+        "disable": false,
+        "name": "zz_001",
+        "inUser": 1,
+        "type": 1
+      },
+      "simcards": {
+        "id": "67c8f3931de26f13781322c3",
+        "iccid": "89860324247559247220",
+        "availableMcc": null,
+        "balance": null,
+        "canCalAccount": null,
+        "canMultiMcc": null,
+        "deductScore": null,
+        "imgMd5": "715a33521f3743ac07a4e758af5847a4",
+        "imsi": "460115064909516",
+        "isActivate": true,
+        "isBroken": false,
+        "isDisabled": false,
+        "isInSimpool": true,
+        "is_used": true,
+        "locationInSimPool": 106,
+        "mcc": "460",
+        "mnc": "11",
+        "operatorId": null,
+        "orgCode": null,
+        "packages": null,
+        "phoneNumber": null,
+        "simPoolMacAddr": "00:18:12:e5:e4:bf",
+        "flag": null,
+        "type": 0,
+        "remark": null,
+        "updateAt": 1742780014247,
+        "userId": "202503231725597306",
+        "name": "zz_001",
+        "bindNumber": null,
+        "data": null
+      },
+      "onLineUsers": {
+        "id": "67e151b7f2d7cd7cc60d910a",
+        "userId": "202503231725597306",
+        "deviceId": "3637383266633364336630353638613530616133313535373338343066633634",
+        "imsi": "460115064909516",
+        "iccid": null,
+        "userLoginTime": "2025-03-24T12:36:07.819+00:00",
+        "userName": "202503231725597306",
+        "state": "CLIENT_STATE_ASSIGNED",
+        "rtuMode": false,
+        "imei": null,
+        "type": 2,
+        "speedLimit": null,
+        "operatorId": null,
+        "rssiLevel": null,
+        "usedFlow": null,
+        "channelType": 32,
+        "cell": {
+          "mcc": 460,
+          "mnc": 7,
+          "rat": "NETWORK_TYPE_UNKNOWN",
+          "celltype": "RADIO_TYPE_UNKNOW",
+          "rssi": 0,
+          "lac": 0,
+          "cid": 0,
+          "csStatus": "RIL_REG_STATE_NOT_REG",
+          "csErrno": 0,
+          "psStatus": "RIL_REG_STATE_NOT_REG",
+          "psErrno": 0,
+          "rssiLevel": 0
+        },
+        "userOfflineTime": null
+      }
+    }
+  }
+  ```
+
+### 7. 收短信
+- 路径：/outbreak/getSms
+- 方法：GET
+- 描述：接收短信
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 查询参数：
+  - userId：设备的userId
+- 响应(200)：
+  - 内容类型：application/json
+  - 示例：
+  ```json
+  {
+    "code": "3810000",
+    "msg": "ok",
+    "data": "{\"date\":\"2025-03-24 10:02:34\",\"receiver\":\"\",\"sender\":\"13385220594\",\"msg_id\":\"20250324100235.001\",\"content\":\"你好！最近忙吗？\"}"
+  }
+  ```
+
+### 8. 发短信
+- 路径：/outbreak/sendSms
+- 方法：POST
+- 描述：发送短信
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 请求体(application/json)：
+  ```json
+  {
+    "userId": "202503231725597306",
+    "sms_receiver": "13385220594",
+    "content": "hello,what are you doing?",
+    "msg_id": "2024031811393511111111"
+  }
+  ```
+- 响应(200)：
+  - 内容类型：application/json
+  - 示例：
+  ```json
+  {
+    "code": "3810000",
+    "msg": "下发成功",
+    "data": "2024031811393511111111"
+  }
+  ```
+
+### 9. 获取短信发送结果
+- 路径：/outbreak/sendResult
+- 方法：GET
+- 描述：查询短信发送结果
+- 请求头参数：
+  - key：请求头秘钥，必填，示例值："8d6d6862e654b4444126968b5516ae69"
+- 查询参数：
+  - msgId：短信ID，必填，示例值："2024031811393511111111"
+- 响应(200)：
+  - 内容类型：application/json
+  - 示例：
+  ```json
+  {
+    "code": "3810000",
+    "msg": "success",
+    "data": "{\"imei2\":\"866375034331461\",\"imei1\":\"866375034231463\",\"success\":true,\"mobile\":\"\",\"msg_id\":\"2024031811393511111111\",\"uuid\":\"5754525330335F202406071753408170\"}"
+  }
+  ```
+
+## 数据结构说明
+
+### SIM卡信息结构
+- id: SIM卡唯一标识
+- iccid: 集成电路卡识别码
+- imsi: 国际移动用户识别码
+- isActivate: 是否激活
+- isBroken: 是否损坏
+- isDisabled: 是否禁用
+- isInSimpool: 是否在SIM卡池中
+- is_used: 是否正在使用中
+- locationInSimPool: 在SIM卡池中的位置
+- mcc: 移动国家代码
+- mnc: 移动网络代码
+- simPoolMacAddr: SIM卡池MAC地址
+- userId: 用户ID
+- name: 用户名称
+
+### 设备信息结构
+- id: 设备唯一标识
+- userId: 用户ID
+- status: 状态码
+- name: 设备名称
+- inUser: 使用状态
+- type: 设备类型
+
+### 在线用户信息结构
+- userId: 用户ID
+- deviceId: 设备ID
+- imsi: 国际移动用户识别码
+- userLoginTime: 用户登录时间
+- userName: 用户名
+- state: 状态
+- cell: 小区信息（包含mcc、mnc、rat等）
+
+## 错误码说明
+常见错误码：
+- 3810000: 成功 

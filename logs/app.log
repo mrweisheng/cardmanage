@@ -1,0 +1,632 @@
+{"level":"error","message":"无法连接到数据库，应用将退出","service":"cardpool-proxy","timestamp":"2025-04-14 12:30:36"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-14 12:32:57"}
+{"endpoint":"/outbreak/simCardsList","error":"getaddrinfo ENOTFOUND third-party-api-url","errorResponse":{},"level":"error","message":"API调用失败","method":"POST","service":"cardpool-proxy","timestamp":"2025-04-14 12:33:49"}
+{"error":"getaddrinfo ENOTFOUND third-party-api-url","level":"error","message":"获取SIM卡列表失败","service":"cardpool-proxy","timestamp":"2025-04-14 12:33:49"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-14 12:35:43"}
+{"level":"info","message":"成功保存/更新 2 张SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-14 12:36:49"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 13:05:56"}
+{"level":"info","message":"成功保存/更新 0 张SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-21 13:06:01"}
+{"level":"info","message":"成功保存/更新 2 张SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-21 13:17:32"}
+{"level":"info","message":"成功保存/更新 2 张SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-21 13:35:02"}
+{"level":"info","message":"成功保存/更新 2 张SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-21 13:36:21"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 13:55:36"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 13:55:46"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 13:58:14"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 13:59:19"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:01:36"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:01:57"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:03:26"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:03:51"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:38"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:38"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:40"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:40"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:44"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-21 14:08:44"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:19:36"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 14:35:58","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:48:01"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:48:30"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:48:53"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 14:49:14"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 14:49:50","userId":"202504211434358387"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 14:50:48","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:01:25"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:01:57","userId":"202504211434358387"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:02:12","userId":"202504211434358387"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:02:28","userId":"202504211434358387"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:05:18","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:07:01"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:10:35"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:11:07"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:20:00","userId":"202504211434358387"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:26:59","userId":"202504211434358387"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:28:37","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:31:22"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:40:57"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 15:51:52"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:51:53","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:53:23"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 15:54:00"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:54:01","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:55:40"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:56:09"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 15:58:28"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 15:58:29","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 15:59:43"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 16:02:07"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 16:02:44"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 16:02:45","userId":"202504211434358387"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 16:04:45"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-21 16:05:34"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 16:06:31","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 16:06:32"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-21 16:06:57","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-21 16:06:58"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-21 18:34:44"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-21 18:34:44"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-22 10:20:43"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:06"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:06"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:26"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:26"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:29"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:29"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:33"}
+{"error":"INSERT has more target columns than expressions","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:21:33"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-22 10:31:36"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-22 10:31:55"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-22 10:32:20"}
+{"error":"invalid input syntax for type timestamp: \"CURRENT_TIMESTAMP\"","level":"error","message":"保存SIM卡信息失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:33:32"}
+{"error":"invalid input syntax for type timestamp: \"CURRENT_TIMESTAMP\"","level":"error","message":"异步保存SIM卡数据失败","service":"cardpool-proxy","timestamp":"2025-04-22 10:33:32"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-22 10:34:32"}
+{"level":"info","message":"批量保存/更新 2 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-22 10:35:43"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-23 13:09:50"}
+{"level":"info","message":"批量保存/更新 2 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-23 13:09:58"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:14:38","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:14:39"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:16:50","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:16:51"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:18:55","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:18:56"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:19:24","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:19:25"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:21:21","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:21:22"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:22:54","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:22:55"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 13:37:34","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 13:37:35"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-23 15:14:22"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 15:14:41","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 15:14:42"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 15:16:48","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 15:16:49"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 15:20:03","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 15:20:05"}
+{"level":"info","message":"批量保存/更新 2 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-23 15:22:17"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 15:23:23","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 15:23:24"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-23 15:25:12","userId":"202504211434358387"}
+{"error":"value too long for type character varying(50)","level":"error","message":"记录操作日志失败","service":"cardpool-proxy","timestamp":"2025-04-23 15:25:13"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-23 16:03:32"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:39:13"}
+{"level":"info","message":"批量保存/更新 2 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-24 10:39:32"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:47:42"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:47:48"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:52:20"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:54:57"}
+{"level":"info","message":"收到切卡请求","service":"cardpool-proxy","timestamp":"2025-04-24 10:55:40","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","service":"cardpool-proxy","timestamp":"2025-04-24 10:55:40"}
+{"error":"Cannot read properties of undefined (reading 'replace')","level":"error","message":"根据手机号查询SIM卡失败","service":"cardpool-proxy","timestamp":"2025-04-24 10:55:40"}
+{"error":"Cannot read properties of undefined (reading 'replace')","level":"error","message":"切卡失败","service":"cardpool-proxy","timestamp":"2025-04-24 10:55:40"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:56:23"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:56:39"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 10:56:57"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 10:56:58"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:56:58"}
+{"level":"info","message":"收到切卡请求","service":"cardpool-proxy","timestamp":"2025-04-24 10:57:25","userId":"202504241037081232"}
+{"level":"error","message":"切卡请求参数不完整","service":"cardpool-proxy","timestamp":"2025-04-24 10:57:25","userId":"202504241037081232"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 10:58:06"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:07"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:07"}
+{"level":"info","message":"收到切卡请求","originalBody":{"phoneNumber":"+639564371832","userId":"202504241037081232"},"phone_number":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phone_number":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phone_number":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:21","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 10:58:23","userId":"202504241037081232"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 10:59:26"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 10:59:28"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:59:28"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 10:59:50"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 10:59:51"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 10:59:51"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 11:00:04"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:05"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:05"}
+{"level":"info","message":"收到切卡请求","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:15","userId":"202504211434358387"}
+{"level":"error","message":"切卡请求参数不完整","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:15","userId":"202504211434358387"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 11:00:16"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:17"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:17"}
+{"level":"info","message":"收到切卡请求","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:36","userId":"202504211434358387"}
+{"level":"error","message":"切卡请求参数不完整","service":"cardpool-proxy","timestamp":"2025-04-24 11:00:36","userId":"202504211434358387"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:40","userId":"202504211434358387"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:40"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:40"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:40"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:40"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:41"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:41"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:41","userId":"202504211434358387"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 11:01:44","userId":"202504211434358387"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:04","userId":"202504211434358387"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:04"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:04"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:04"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:04"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:05"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:05"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:05","userId":"202504211434358387"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 11:05:07","userId":"202504211434358387"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:14","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:14"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:14"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:14"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:14"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:16"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:16"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:16","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 11:09:18","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:36","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:36"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:36"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:36"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:36"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:37"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:37"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:37","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 11:11:39","userId":"202504241037081232"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-24 12:41:41"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-24 12:41:42"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-24 12:41:42"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-24 12:41:50"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:52","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:52"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:52"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:52"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:52"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:53"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:53"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:53","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 12:43:56","userId":"202504241037081232"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-04-24 13:08:53"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:06","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:06"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:06"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:06"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:06"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:07"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:07"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:07","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:13:09","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:27","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:27"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:27"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:27"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:27"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:28"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:28"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:28","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:15:31","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:57","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:57"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:57"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:57"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:57"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:58"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:58"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:17:58","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:00","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:00"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:00"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:00"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:00"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:01"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:01"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:01","userId":"202504241037081232"}
+{"endpoint":"/outbreak/clientsSpilt","error":"timeout of 10000ms exceeded","errorResponse":{},"level":"error","message":"API调用失败","method":"POST","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:09"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"切卡失败","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:09"}
+{"endpoint":"/outbreak/clientsSpilt","error":"timeout of 10000ms exceeded","errorResponse":{},"level":"error","message":"API调用失败","method":"POST","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:11"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"切卡失败","service":"cardpool-proxy","timestamp":"2025-04-24 13:18:11"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:07","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:07"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:07"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:07"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:07"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:08"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:08"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:08","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:19:10","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:13","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:13"}
+{"level":"info","message":"尝试查询手机号: +639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:13"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376124\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:13"}
+{"level":"info","message":"清理后的手机号: 639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:13"}
+{"level":"info","message":"成功找到手机号码 +639670376124 => +639670376124, IMSI: 515026547701860","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:14"}
+{"imsi":"515026547701860","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:14"}
+{"imsi":"515026547701860","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:14","userId":"202504241037081232"}
+{"imsi":"515026547701860","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:20:21","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:37","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:37"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:37"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:37"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:37"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:39"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:39"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:39","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:21:40","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:44","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:44"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:44"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:44"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:44"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:45"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:45"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:45","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:47","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:59","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:59"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:59"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:59"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:22:59"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:23:00"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:23:00"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:23:00","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:23:01","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:29","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:29"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:29"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:29"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:29"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:30"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:30"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:30","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:24:33","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:25:58","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:25:58"}
+{"level":"info","message":"尝试查询手机号: +639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:25:58"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376124\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:25:58"}
+{"level":"info","message":"清理后的手机号: 639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:25:58"}
+{"level":"info","message":"成功找到手机号码 +639670376124 => +639670376124, IMSI: 515026547701860","service":"cardpool-proxy","timestamp":"2025-04-24 13:26:00"}
+{"imsi":"515026547701860","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:26:00"}
+{"imsi":"515026547701860","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:26:00","userId":"202504241037081232"}
+{"imsi":"515026547701860","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:26:02","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:28","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:28"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:28"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:28"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:28"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:29"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:29"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:29","userId":"202504241037081232"}
+{"imsi":"515026548326053","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:27:32","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:57","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:57"}
+{"level":"info","message":"尝试查询手机号: +639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:57"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314616\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:57"}
+{"level":"info","message":"清理后的手机号: 639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:57"}
+{"level":"info","message":"成功找到手机号码 +639536314616 => +639536314616, IMSI: 515026931304184","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:58"}
+{"imsi":"515026931304184","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:58"}
+{"imsi":"515026931304184","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:28:58","userId":"202504241037081232"}
+{"imsi":"515026931304184","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:29:01","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:27","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:27"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:27"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:27"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:27"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:28"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:28"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:28","userId":"202504241037081232"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:30:31","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:56","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:56"}
+{"level":"info","message":"尝试查询手机号: +639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:56"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671466519\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:56"}
+{"level":"info","message":"清理后的手机号: 639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:56"}
+{"level":"info","message":"成功找到手机号码 +639671466519 => +639671466519, IMSI: 515026548324369","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:57"}
+{"imsi":"515026548324369","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:57"}
+{"imsi":"515026548324369","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:31:57","userId":"202504241037081232"}
+{"imsi":"515026548324369","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:32:00","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:25","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:25"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:26"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:26"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:26"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:28"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:28"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:28","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:33:32","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:55","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:55"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:55"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:55"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:55"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:56"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:56"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:56","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:34:59","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:24","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:24"}
+{"level":"info","message":"尝试查询手机号: +639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:24"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376124\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:24"}
+{"level":"info","message":"清理后的手机号: 639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:24"}
+{"level":"info","message":"成功找到手机号码 +639670376124 => +639670376124, IMSI: 515026547701860","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:27"}
+{"imsi":"515026547701860","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:27"}
+{"imsi":"515026547701860","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:27","userId":"202504241037081232"}
+{"imsi":"515026547701860","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:36:33","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:54","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:54"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:54"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:54"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:54"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:55"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:55"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:55","userId":"202504241037081232"}
+{"imsi":"515026548326053","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:37:58","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:23","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:23"}
+{"level":"info","message":"尝试查询手机号: +639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:23"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314616\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:23"}
+{"level":"info","message":"清理后的手机号: 639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:23"}
+{"level":"info","message":"成功找到手机号码 +639536314616 => +639536314616, IMSI: 515026931304184","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:25"}
+{"imsi":"515026931304184","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:25"}
+{"imsi":"515026931304184","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:25","userId":"202504241037081232"}
+{"imsi":"515026931304184","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:39:29","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:53","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:53"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:53"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:53"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:53"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:56"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:56"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:56","userId":"202504241037081232"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:40:58","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:22","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:22"}
+{"level":"info","message":"尝试查询手机号: +639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:22"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671466519\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:22"}
+{"level":"info","message":"清理后的手机号: 639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:22"}
+{"level":"info","message":"成功找到手机号码 +639671466519 => +639671466519, IMSI: 515026548324369","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:24"}
+{"imsi":"515026548324369","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:24"}
+{"imsi":"515026548324369","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:24","userId":"202504241037081232"}
+{"imsi":"515026548324369","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:42:34","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:52","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:52"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:52"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:52"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:52"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:53"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:53"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:53","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:43:56","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:21","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:21"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:21"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:21"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:21"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:23"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:23"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:23","userId":"202504241037081232"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:45:26","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:51","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:51"}
+{"level":"info","message":"尝试查询手机号: +639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:51"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376124\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:51"}
+{"level":"info","message":"清理后的手机号: 639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:51"}
+{"level":"info","message":"成功找到手机号码 +639670376124 => +639670376124, IMSI: 515026547701860","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:55"}
+{"imsi":"515026547701860","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:55"}
+{"imsi":"515026547701860","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:55","userId":"202504241037081232"}
+{"imsi":"515026547701860","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:46:58","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:20","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:20"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:20"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:20"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:20"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:21"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:21"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:21","userId":"202504241037081232"}
+{"imsi":"515026548326053","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:48:25","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:50","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:50"}
+{"level":"info","message":"尝试查询手机号: +639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:50"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314616\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:50"}
+{"level":"info","message":"清理后的手机号: 639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:50"}
+{"level":"info","message":"成功找到手机号码 +639536314616 => +639536314616, IMSI: 515026931304184","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:51"}
+{"imsi":"515026931304184","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:51"}
+{"imsi":"515026931304184","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:51","userId":"202504241037081232"}
+{"imsi":"515026931304184","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:49:53","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:19","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:19"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:19"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:19"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:19"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:20"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:20"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:20","userId":"202504241037081232"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:51:23","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:48","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:48"}
+{"level":"info","message":"尝试查询手机号: +639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:48"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671466519\"}","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:48"}
+{"level":"info","message":"清理后的手机号: 639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:48"}
+{"level":"info","message":"成功找到手机号码 +639671466519 => +639671466519, IMSI: 515026548324369","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:50"}
+{"imsi":"515026548324369","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:50"}
+{"imsi":"515026548324369","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:50","userId":"202504241037081232"}
+{"imsi":"515026548324369","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 13:52:53","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:08","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:08"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:08"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:08"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:08"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:09"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:09"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:09","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 16:21:12","userId":"202504241037081232"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:49","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:49"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:49"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:49"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:49"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:51"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:51"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:51","userId":"202504241037081232"}
+{"imsi":"515026548326053","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-24 17:06:53","userId":"202504241037081232"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-04-25 15:32:07"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-04-25 15:32:08"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-04-25 15:32:08"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:45","userId":"202504241037081232"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:45"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:45"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:45"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:45"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:46"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:46"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:46","userId":"202504241037081232"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-04-25 15:33:47","userId":"202504241037081232"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-10 10:15:33"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-10 10:15:35"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-10 10:15:35"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-10 10:16:24"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-10 10:42:33"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-10 11:22:14"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 13:14:27"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 13:14:28"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 13:14:28"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-19 13:14:52"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:38","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:38"}
+{"level":"info","message":"尝试查询手机号: +639670376124","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:38"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376124\"}","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:38"}
+{"level":"info","message":"清理后的手机号: 639670376124","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:38"}
+{"level":"info","message":"成功找到手机号码 +639670376124 => +639670376124, IMSI: 515026547701860","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:40"}
+{"imsi":"515026547701860","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376124","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:40"}
+{"imsi":"515026547701860","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:40","userId":"test99001"}
+{"imsi":"515026547701860","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 13:16:41","userId":"test99001"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 13:44:26"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 13:44:27"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 13:44:27"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-19 14:02:54"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:24","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:24"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:24"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:24"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:24"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:25"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:25"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:25","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:36:37","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:58","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:58"}
+{"level":"info","message":"尝试查询手机号: +639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:58"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671468206\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:58"}
+{"level":"info","message":"清理后的手机号: 639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:58"}
+{"level":"info","message":"成功找到手机号码 +639671468206 => +639671468206, IMSI: 515026548326053","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:59"}
+{"imsi":"515026548326053","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671468206","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:59"}
+{"imsi":"515026548326053","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:45:59","userId":"test99001"}
+{"imsi":"515026548326053","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:46:00","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:43","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:43"}
+{"level":"info","message":"尝试查询手机号: +639536314616","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:43"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314616\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:43"}
+{"level":"info","message":"清理后的手机号: 639536314616","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:43"}
+{"level":"info","message":"成功找到手机号码 +639536314616 => +639536314616, IMSI: 515026931304184","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:44"}
+{"imsi":"515026931304184","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314616","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:44"}
+{"imsi":"515026931304184","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:44","userId":"test99001"}
+{"imsi":"515026931304184","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:47:46","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:27","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:27"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:27"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:27"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:27"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:28"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:28"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:28","userId":"test99001"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:49:29","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:11","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:11"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:11"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:11"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:11"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:12"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:12"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:12","userId":"test99001"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:13","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"level":"info","message":"尝试查询手机号: +639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639670376032\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"level":"info","message":"清理后的手机号: 639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"level":"info","message":"成功找到手机号码 +639670376032 => +639670376032, IMSI: 515026547701768","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"imsi":"515026547701768","level":"info","message":"成功找到SIM卡","phoneNumber":"+639670376032","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34"}
+{"imsi":"515026547701768","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:34","userId":"test99001"}
+{"imsi":"515026547701768","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:52:35","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:10","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:10"}
+{"level":"info","message":"尝试查询手机号: +639671466519","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:10"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639671466519\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:10"}
+{"level":"info","message":"清理后的手机号: 639671466519","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:10"}
+{"level":"info","message":"成功找到手机号码 +639671466519 => +639671466519, IMSI: 515026548324369","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:11"}
+{"imsi":"515026548324369","level":"info","message":"成功找到SIM卡","phoneNumber":"+639671466519","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:11"}
+{"imsi":"515026548324369","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:11","userId":"test99001"}
+{"imsi":"515026548324369","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:53:13","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:02","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:02"}
+{"level":"info","message":"尝试查询手机号: +639564371832","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:02"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639564371832\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:02"}
+{"level":"info","message":"清理后的手机号: 639564371832","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:02"}
+{"level":"info","message":"成功找到手机号码 +639564371832 => +639564371832, IMSI: 515021186505373","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:03"}
+{"imsi":"515021186505373","level":"info","message":"成功找到SIM卡","phoneNumber":"+639564371832","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:03"}
+{"imsi":"515021186505373","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:03","userId":"test99001"}
+{"imsi":"515021186505373","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:55:04","userId":"test99001"}
+{"level":"info","message":"收到切卡请求","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:47","userId":"test99001"}
+{"level":"info","message":"开始根据手机号查询SIM卡信息","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:47"}
+{"level":"info","message":"尝试查询手机号: +639536314631","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:47"}
+{"level":"info","message":"查询参数: {\"phoneNumber\":\"+639536314631\"}","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:47"}
+{"level":"info","message":"清理后的手机号: 639536314631","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:47"}
+{"level":"info","message":"成功找到手机号码 +639536314631 => +639536314631, IMSI: 515026931304199","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:48"}
+{"imsi":"515026931304199","level":"info","message":"成功找到SIM卡","phoneNumber":"+639536314631","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:48"}
+{"imsi":"515026931304199","level":"info","message":"开始调用第三方API","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:48","userId":"test99001"}
+{"imsi":"515026931304199","isInUsed":true,"level":"info","message":"更新SIM卡状态","service":"cardpool-proxy","timestamp":"2025-05-19 14:56:52","userId":"test99001"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 19:36:39"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 19:36:40"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 19:36:40"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-19 19:36:50"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 19:38:40"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 19:38:41"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 19:38:41"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, is_in_used, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-19 19:40:12"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 19:48:24"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 19:48:25"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 19:48:25"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-19 19:48:28"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-19 19:48:29"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-19 19:48:29"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-22 14:41:12"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:13"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:13"}
+{"database":"cardpool_proxy","host":"104.37.187.30","level":"info","message":"数据库配置","port":"5432","service":"cardpool-proxy","ssl":false,"timestamp":"2025-05-22 14:41:27"}
+{"level":"info","message":"数据库连接成功","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:27"}
+{"level":"info","message":"服务器已启动，监听端口: 3000","service":"cardpool-proxy","timestamp":"2025-05-22 14:41:27"}
+{"level":"info","message":"批量保存/更新 7 张SIM卡信息，字段：card_id, iccid, imsi, mcc, mnc, is_activate, is_broken, is_disabled, is_in_simpool, location_in_sim_pool, sim_pool_mac_addr, user_id, name, bind_number, img_md5, operator_id, org_code, phone_number, update_at","service":"cardpool-proxy","timestamp":"2025-05-22 14:43:00"}
